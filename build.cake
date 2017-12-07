@@ -71,7 +71,7 @@ Task("Pack")
                                     Id                      = "CakeDemo",
                                     Version                 = "0.0.0.1",
                                     Title                   = "Cake Demo",
-                                    Author                  = "Marcin",
+                                    Authors                 = new[] {"Marcin"},
                                     Description             = "Demo of creating cake.build scripts.",
                                     Summary                 = "Excellent summary of what the Cake (C# Make) build tool does.",
                                     Files                   = new [] {
